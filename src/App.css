@@ -10,8 +10,18 @@
   color: white;
 }
 
-input {
+.input-group {
   margin: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #61dafb;
+  font-size: 16px;
+}
+
+input {
   padding: 10px;
   width: 300px;
   border: 2px solid #61dafb;
@@ -54,4 +64,10 @@ h1 {
   50% {
     transform: translateY(-20px);
   }
+}
+
+.api-speed-info {
+  color: #ffdd57;
+  font-size: 16px;
+  margin: 20px 0;
 }
